@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.world.agrination.community.CommunityActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Community"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:layout_below="@+id/r1"
+        android:id="@+id/lvDiscussionTopics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/msg_community"
+        />
+
+    <TextView
+
+        android:id="@+id/msg_community"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note :- Message Only Related To Products And Service..."
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFD600"
+
+        />
+
+
+</RelativeLayout>

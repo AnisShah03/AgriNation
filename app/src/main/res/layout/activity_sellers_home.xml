@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seller.SellersHomeActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/teal_700"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:id="@+id/re11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="My Products"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/selller_homerecycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/shome"
+        android:layout_below="@id/re11">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <Button
+        android:id="@+id/shome"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/inputs_design"
+        android:backgroundTint="@color/primaryDark"
+        android:drawableLeft="@drawable/default_icon"
+        android:drawableTintMode="add"
+        android:padding="10dp"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/sAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:text="Add"
+
+        android:padding="10dp"
+        android:backgroundTint="@color/primaryDark"
+        android:background="@drawable/inputs_design"
+        />
+
+    <Button
+        android:id="@+id/slogout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="200dp"
+        android:drawableLeft="@drawable/abc_vector_test"
+        android:text="Logout"
+        android:padding="10dp"
+        android:backgroundTint="@color/primaryDark"
+        android:background="@drawable/inputs_design"
+
+        />
+
+    <Button
+        android:id="@+id/community_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="305dp"
+        android:drawableLeft="@drawable/ic_menu_share"
+        android:text="Community"
+        android:padding="10dp"
+        android:backgroundTint="@color/primaryDark"
+        android:background="@drawable/inputs_design"
+
+        />
+
+</RelativeLayout>

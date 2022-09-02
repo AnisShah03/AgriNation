@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "823570481071",
+    "project_id": "agrination-9e1da",
+    "storage_bucket": "agrination-9e1da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823570481071:android:ed004b7302c5979579395a",
+        "android_client_info": {
+          "package_name": "com.world.agrination"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823570481071-4k6aof46br5usoagc8mu60iu82haqpql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.world.agrination",
+            "certificate_hash": "274a0f851073777452315ead1d2e00b2367e4408"
+          }
+        },
+        {
+          "client_id": "823570481071-qo87ao1tndnnr96dt5iechmuug2nj73d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5_2oStMphC68wo0BsyQwAO7aC0h-jkVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823570481071-qo87ao1tndnnr96dt5iechmuug2nj73d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
